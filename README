@@ -1,0 +1,24 @@
+John Carto and Julian Kemmerer
+ECEC-622 Assignment #1
+4/26/13
+
+README
+
+Included Files:
+	work_crew.c
+	omp_crew.c
+	queue_utils.c
+	queue.h
+	README
+
+Compilation:
+	Use "gcc -O3 -o work_crew work_crew.c queue_utils.c -std=c99 -lpthread -fopenmp" to compile. Make sure the "omp_crew.c" file is in the directory when compiling.
+	
+To Run:
+	The usage of the program is "Usage: %s <search string> <path> <# of threads>".  See the included report for info on how this was coded.
+	
+	For example, run "./work_crew kandasamy /home/DREXEL/nk78 8".
+	
+Code has been tested and is 100% functional.  Please let us know if you encounter any issues.
+
+Thanks!
